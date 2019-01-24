@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head>
+    <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
+    <!-- Modified to fit Cryogen.-->
+    <meta charset="UTF-8">
+    <title>SciCloj</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72.png">
+    <!-- <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">  -->
+    <link rel="shortcut icon" href="images/ico/favicon.png">
+    <!--[if IE]><![endif]-->
+    <link href="css/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/typography.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/dracula.min.css">
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+
+<div id="left">
+
+    <p id="logo">
+        <a title="SciCloj" href="/">
+            <!-- <span class="logo"><img src="/blog/img/alan.jpg" class="alan-pic"></span> -->
+            <span class="text">SciCloj</span>
+        </a>
+    </p>
+
+    <div id="menucont" class="bodycontainer clearfix">
+        <div class="menutitle">
+            <p><span class="fa fa-reorder"></span><strong>Menu</strong></p>
+        </div>
+        <ul class="menu">
+            <li  class="active" ><a title="Home" href="/">Home</a></li>
+            <li ><a title="Archives" href="/archives/">Archive</a></li>
+            <!--
+            <!-- <li ><a title="Tags" href="/tags/">Tag</a></li> -->
+            <!-- -->
+            
+            <li >
+                <a href="/pages/about/">About</a>
+            </li>
+            
+            <li><a title="RSS" href="/feed.xml">RSS</a></li>
+        </ul>
+    </div>
+
+    <div id="socialmedia" class="clearfix">
+        <!-- <ul>
+             <li><a title="GitHub" href="https://github.com/alanmarazzi" rel="external"><span class="fab fa-github"></span></a></li>
+             <li><a title="Gitlab" href="https://gitlab.com/alanmarazzi" rel="external"><span class="fab fa-gitlab"></span></a></li>
+             <li><a title="Quora" href="https://it.quora.com/profile/Alan-Marazzi" rel="external"><span class="fab fa-quora"></span></a></li>            
+             <li><a title="Medium" href="https://medium.com/@Pillolaio" rel="external"><span class="fab fa-medium"></span></a></li>
+             <li><a title="LinkedIn" href="https://www.linkedin.com/in/alanmarazzi" rel="external"><span class="fab fa-linkedin"></span></a></li>
+             <li><a title="Email" href="mailto:alan.marazzi@gmail.com" rel="external"><span class="fas fa-at"></span></a></li>
+             </ul> -->
+    </div>
+
+</div>
+
+<div id="right" class="clearfix">
+    
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <strong>January 21, 2019</strong>
+        
+    </div>
+    <h1>Are we scientists yet?</h1>
+</div>
+<div>
+    <ol class="content"><li><a href="#multidimensional_arrays,_linear-algebra">Multidimensional arrays, Linear-algebra</a></li><ol><li><a href="#notable_examples">Notable examples</a></li><li><a href="#status">Status</a></li><li><a href="#forward">Forward</a></li></ol><li><a href="#plotting">Plotting</a></li><ol><li><a href="#notable_examples">Notable examples</a></li><li><a href="#status">Status</a></li><li><a href="#forward">Forward</a></li></ol><li><a href="#geospatial_library">Geospatial library</a></li><ol><li><a href="#notable_examples">Notable examples</a></li><li><a href="#status">Status</a></li><li><a href="#forward">Forward</a></li></ol><li><a href="#dataframe_or_similar">Dataframe or similar</a></li><ol><li><a href="#notable_examples">Notable examples</a></li><li><a href="#status">Status</a></li><li><a href="#forward">Forward</a></li></ol><li><a href="#statistics_&amp;&amp;#95;probprog">Statistics & probprog</a></li><ol><li><a href="#notable_examples">Notable examples</a></li><li><a href="#status">Status</a></li><li><a href="#forward">Forward</a></li></ol><li><a href="#machine_learning">Machine learning</a></li><ol><li><a href="#notable_examples">Notable examples</a></li><li><a href="#status">Status</a></li><li><a href="#forward">Forward</a></li></ol><li><a href="#deep_learning">Deep learning</a></li><ol><li><a href="#notable_examples">Notable examples</a></li><li><a href="#status">Status</a></li><li><a href="#forward">Forward</a></li></ol><li><a href="#disclaimer">Disclaimer</a></li></ol>
+    <p>The Clojure community is moving a lot lately on the data science front, but we were feeling we needed some organization and more open discussion about these themes. <a href='https://clojureverse.org/t/online-meeting-clojure-data-science/3503/65'>This is the Clojureverse thread</a> that started it all. Here we try to collect and record the current state of things, and I would like to stress the fact that this is owned by the community!</p><p>I really like how the Nim community is <a href='https://github.com/nim-lang/needed-libraries/issues/77'>dealing with the same sorts of problems</a> we're facing, so I'll try the same thing here to foster discussion. We might want to move these things in their own topic in the future or on other platforms, but that's not the point right now.</p><p>The structure of this:</p><ul><li><strong>Name of the problem</strong> - data science is a stack of problems and one <strong>must</strong> have solutions to all of them to really be productive</li><li><strong>Notable examples</strong> - what's considered standard nowadays in other languages</li><li><strong>Status</strong> - the current status of the matter</li><li><strong>Forward</strong> - what is needed moving forward</li></ul><h1 id="multidimensional&#95;arrays,&#95;linear-algebra">Multidimensional arrays, Linear-algebra</h1><p>Generic computation libraries. Here we should strive for the best: both GPU and CPU capability, multidimensional arrays, broadcasting, etc</p><h2 id="notable&#95;examples">Notable examples</h2><ul><li><a href='http://www.numpy.org/'>Numpy</a></li><li><a href='https://deeplearning4j.org/docs/latest/nd4j-overview'>ND4J</a></li></ul><h2 id="status">Status</h2><p>There are many libraries popping out at various levels of maturity, <strong>some</strong> of them are:</p><ul><li><a href='https://neanderthal.uncomplicate.org/'>Neanderthal</a></li><li><a href='https://github.com/techascent/tvm-clj'>tvm-clj</a></li><li><a href='https://github.com/hswick/jutsu.matrix'>jutsu.matrix</a></li><li><a href='https://github.com/mikera/core.matrix'>core.matrix</a></li><li><a href='https://github.com/cailuno/denisovan'>denisovan</a></li></ul><h2 id="forward">Forward</h2><p>I think we can all agree that this degree of spread is not good, all these libraries represent wasted time and resources that might be spent on moving further other parts of the stack. We should settle on one-two of them and move on.</p><h1 id="plotting">Plotting</h1><p>Plotting is important for both analysis and presentation of results. Thanks to Clojurescript we might probably have an edge over other languages here.</p><h2 id="notable&#95;examples">Notable examples</h2><ul><li><a href='https://ggplot2.tidyverse.org/'>ggplot2</a></li><li><a href='https://matplotlib.org/'>matplotlib</a></li><li><a href='https://plot.ly/'>plotly</a></li></ul><h2 id="status">Status</h2><p>Here there are many libraries as well, **some* of them are:</p><ul><li><a href='https://github.com/jsa-aerial/saite'>Saite</a>/<a href='https://github.com/jsa-aerial/hanami'>Hanami</a></li><li><a href='https://github.com/metasoarous/oz'>Oz</a></li><li><a href='https://github.com/JonyEpsilon/gorilla-plot'>gorilla-plot</a></li><li><a href='https://github.com/quil/quil'>Quil</a></li></ul><h2 id="forward">Forward</h2><p>In this area taste is really important so it's more normal to have more spread over different libraries. What we should do is to work on what is already available and make the plotting experience seamless: </p><pre><code class="clojure">&#40;bar my-data&#41;
+;=&gt; nil
+</code></pre><p>The result would be a bar chart with reasonable defaults.</p><h1 id="geospatial&#95;library">Geospatial library</h1><p>Deal with coordinates on a map.</p><h2 id="notable&#95;examples">Notable examples</h2><ul><li><a href='https://geopy.readthedocs.io/en/stable/'>GeoPy</a></li><li><a href='https://mapnik.org/'>mapnik</a></li></ul><h2 id="status">Status</h2><p>Not much that I'm aware of:</p><ul><li><a href='https://github.com/Factual/geo'>geo</a></li></ul><h2 id="forward">Forward</h2><p>This is another area where Clojure could shine thanks to its concurrency model. The fact it would be easy to deal with <a href='https://spark.apache.org/'>Spark</a> or <a href='https://github.com/onyx-platform/onyx'>Onyx</a> it's certainly a plus.</p><h1 id="dataframe&#95;or&#95;similar">Dataframe or similar</h1><p>Today's data scientists are used to work with tabular data, we have to deal with it.</p><h2 id="notable&#95;examples">Notable examples</h2><ul><li><a href='https://pandas.pydata.org/'>pandas</a></li><li><a href='https://www.r-project.org/'>R</a></li><li><a href='https://arrow.apache.org/'>Arrow</a></li></ul><h2 id="status">Status</h2><p>Not good: there are lots of stumps here and there but nothing has ever caught on. Some examples:</p><ul><li><a href='https://github.com/sbelak/huri'>huri</a></li><li><a href='https://github.com/aria42/koala'>koala</a></li><li><a href='https://github.com/techascent/tech.ml-base'>tech.ml-base</a></li></ul><h2 id="forward">Forward</h2><p>Here I would move on wrapping <a href='https://arrow.apache.org/'>Arrow</a> which have to potential to become the standard in the recent future, but anything that works is very welcome!</p><h1 id="statistics&#95;&&#95;probprog">Statistics & probprog</h1><p>Very important as the base for ML systems and evaluation of models.</p><h2 id="notable&#95;examples">Notable examples</h2><ul><li><a href='https://www.scipy.org/'>scipy</a></li><li><a href='https://scikit-learn.org/'>scikit-learn</a></li><li><a href='https://www.r-project.org/'>R</a></li></ul><h2 id="status">Status</h2><p>There are already many examples:</p><ul><li><a href='https://github.com/MastodonC/kixi.stats'>kixi.stats</a></li><li><a href='https://github.com/generateme/fastmath'>fastmath</a></li><li><a href='https://github.com/sbelak/huri'>huri</a></li><li><a href='https://github.com/uncomplicate/bayadera'>bayadera</a></li><li><a href='https://github.com/bigmlcom/sampling'>sampling</a></li><li><a href='http://probprog.ml/anglican/index.html'>anglican</a></li></ul><h2 id="forward">Forward</h2><p>What is missing here is the tooling: we need more abstractions over basic functionality. For instance a function to get the ROC-AUC score for model validation.</p><p>Also better docs and examples of what is achievable with these libraries.</p><h1 id="machine&#95;learning">Machine learning</h1><p>General modeling, the aim should be to have something simple, usable, reliable and with a consistent interface.</p><h2 id="notable&#95;examples">Notable examples</h2><ul><li><a href='https://scikit-learn.org/'>scikit-learn</a></li><li><a href='https://github.com/dmlc/xgboost'>XGBoost</a></li></ul><h2 id="status">Status</h2><p>Something is moving lately in this area:</p><ul><li><a href='https://github.com/generateme/fastmath'>fastmath</a></li><li><a href='https://github.com/joshuaeckroth/clj-ml/'>clj-ml</a></li><li><a href='https://gitlab.com/alanmarazzi/clj-boost'>clj-boost</a></li><li><a href='https://github.com/techascent/tech.ml-base'>tech.ml-base</a></li><li><a href='https://github.com/techascent/tech.xgboost'>tech.xgboost</a></li></ul><h2 id="forward">Forward</h2><p>As stated earlier either we pursue an <a href='https://www.r-project.org/'>R</a> model (with many small libraries) or the <a href='https://scikit-learn.org/'>scikit-learn</a> way (one big framework with batteries included), the important thing should be to have a common interface to algorithms and utilities. This would be the opposite of what happens in the R world.</p><h1 id="deep&#95;learning">Deep learning</h1><p>Important for computer vision, NLP and other problems.</p><h2 id="notable&#95;examples">Notable examples</h2><ul><li><a href='https://www.tensorflow.org/'>TensorFlow</a></li><li><a href='https://pytorch.org/'>PyTorch</a></li><li><a href='https://mxnet.apache.org/'>MXNet</a></li></ul><h2 id="status">Status</h2><p>We're pretty much covered especially thanks to Carin Meier's work, what can be really improved are docs, examples and tutorials.</p><ul><li><a href='https://mxnet.apache.org/api/clojure/index.html'>MXNet</a></li><li><a href='https://github.com/originrose/cortex'>Cortex</a></li><li><a href='https://github.com/hswick/jutsu.ai'>jutsu.ai</a></li><li><a href='https://github.com/aria42/flare'>Flare</a></li></ul><h2 id="forward">Forward</h2><p>Just build on what's already there</p><blockquote><p><h1 id="disclaimer">Disclaimer</h1> None of the lists are to be considered complete, they are just <em>some</em> examples. Of course these are my opinions, but everything is amendable by the community and I would really love to get a productive discussion about these topics. If you think something is missing, wrong, misplaced or anything else just let the community know!  Yeah, I know about <a href='https://github.com/incanter/incanter'>Incanter</a>, I didn't mention it on purpose, but if someone thinks that it is current and useful we can surely discuss it :smile: </p></blockquote>
+</div>
+
+<div id="post-tags">
+    <br/> 
+    <b>Tags: </b>
+    
+    <a href="/tags/data science/">data science</a>
+    
+</div>
+
+<br/>
+
+    
+
+    <div id="prev-next">
+        
+        
+    </div>
+</div>
+
+<hr/>
+<div id="footercont" class="clearfix">Copyright &copy; 2019 SciCloj
+    <p>Powered by <a href="http://cryogenweb.org">Cryogen</a> | Free Website Template by <a title="free website templates" href="http://www.downloadwebsitetemplates.co.uk" rel="external">Download Website Templates</a></p>
+
+</div>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="js/highlight.pack.js" type="text/javascript"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="js/scripts.js" type="text/javascript"></script>
+
+
+</body>
+</html>
