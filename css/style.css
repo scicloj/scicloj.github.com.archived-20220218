@@ -45,7 +45,7 @@ body {
     color: #555;
     font-weight: 200;
     line-height: 28px;
-    background: #FFF;
+    background: #EEE;
     text-rendering: optimizeLegibility;
     vertical-align: baseline;
 }
@@ -129,7 +129,7 @@ img.imgfull {
     bottom: 0;
     width: 100%;
     max-width: 200px;
-    background: #2D2D2D;
+    background: #6C6C6C;
     color: #FFF;
     z-index: 3;
     overflow-y: auto;
