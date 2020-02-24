@@ -12,7 +12,7 @@ https://scicloj.github.com
 The Clojure scientific hub
 </description>
 <lastBuildDate>
-Fri, 03 Jan 2020 02:02:49 +0200
+Mon, 24 Feb 2020 16:54:49 +0100
 </lastBuildDate>
 <generator>
 clj-rss
@@ -34,7 +34,7 @@ Clojure and data: wishes, problems, and ideas
 Sami Kallinen, Konrad Kühne, Daniel Slutsky
 </author>
 <pubDate>
-Fri, 18 Oct 2019 00:00:00 +0300
+Fri, 18 Oct 2019 00:00:00 +0200
 </pubDate>
 </item>
 <item>
@@ -54,7 +54,7 @@ Are we scientists yet?
 Alan Marazzi
 </author>
 <pubDate>
-Thu, 23 May 2019 00:00:00 +0300
+Thu, 23 May 2019 00:00:00 +0200
 </pubDate>
 </item>
 <item>
@@ -76,7 +76,7 @@ Are we scientists yet?
 Alan Marazzi
 </author>
 <pubDate>
-Mon, 21 Jan 2019 00:00:00 +0200
+Mon, 21 Jan 2019 00:00:00 +0100
 </pubDate>
 </item>
 </channel>
