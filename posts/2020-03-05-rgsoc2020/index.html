@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head>
+    <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
+    <!-- Modified to fit Cryogen.-->
+    <meta charset="UTF-8">
+    <title>SciCloj: Data Science in Clojure at Rails Girls Summer of Code</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72.png">
+    <!-- <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">  -->
+    <link rel="shortcut icon" href="images/ico/favicon.png">
+    <!--[if IE]><![endif]-->
+    <link href="/css/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="/css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/typography.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/dracula.min.css">
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+
+<div id="left">
+
+    <p id="logo">
+        <a title="SciCloj" href="/">
+            <!-- <span class="logo"><img src="/blog/img/alan.jpg" class="alan-pic"></span> -->
+            <span class="text">SciCloj</span>
+        </a>
+    </p>
+
+    <div id="menucont" class="bodycontainer clearfix">
+        <div class="menutitle">
+            <p><span class="fa fa-reorder"></span><strong>Menu</strong></p>
+        </div>
+        <ul class="menu">
+            <li ><a title="Home" href="/">Home</a></li>
+            <li ><a title="Archives" href="/archives/">Archive</a></li>
+            <!--
+            <!-- <li ><a title="Tags" href="/tags/">Tag</a></li> -->
+            <!-- -->
+            
+            <li >
+                <a href="/pages/about/">About</a>
+            </li>
+            
+            <li >
+                <a href="/pages/web_meetings/">Web Meetings</a>
+            </li>
+            
+            <li >
+                <a href="/pages/getting_involved/">Getting Involved</a>
+            </li>
+            
+            <li >
+                <a href="/pages/libraries/">Libraries</a>
+            </li>
+            
+            <li >
+                <a href="/pages/reading/">Reading</a>
+            </li>
+            
+            <li><a title="RSS" href="/feed.xml">RSS</a></li>
+        </ul>
+    </div>
+
+    <div id="socialmedia" class="clearfix">
+        <!-- <ul>
+             <li><a title="GitHub" href="https://github.com/alanmarazzi" rel="external"><span class="fab fa-github"></span></a></li>
+             <li><a title="Gitlab" href="https://gitlab.com/alanmarazzi" rel="external"><span class="fab fa-gitlab"></span></a></li>
+             <li><a title="Quora" href="https://it.quora.com/profile/Alan-Marazzi" rel="external"><span class="fab fa-quora"></span></a></li>            
+             <li><a title="Medium" href="https://medium.com/@Pillolaio" rel="external"><span class="fab fa-medium"></span></a></li>
+             <li><a title="LinkedIn" href="https://www.linkedin.com/in/alanmarazzi" rel="external"><span class="fab fa-linkedin"></span></a></li>
+             <li><a title="Email" href="mailto:alan.marazzi@gmail.com" rel="external"><span class="fas fa-at"></span></a></li>
+             </ul> -->
+    </div>
+
+</div>
+
+<div id="right" class="clearfix">
+    
+<div id="post">
+    <p>This is an opinionated blog post. Community members are invited to contribute their opinions as posts at this blog.</p>
+    <hr></hr>
+
+    <div class="post-header">
+    <div id="post-meta" class="row">
+        <strong>March 5, 2020</strong>
+        
+        <span class="col-lg-6 right">By: Daniel Slutsky</span>
+        
+    </div>
+    <h1>Data Science in Clojure at Rails Girls Summer of Code</h1>
+</div>
+<div>
+    
+    <p>In this post I wish to write briefly about the <a href='https://teams.railsgirlssummerofcode.org/projects/369-data-science-in-clojure'>"data science in clojure"</a> project in Rails Girls Summer of Code 2020.</p><p>Hoping to encourage people to join as <a href='https://railsgirlssummerofcode.org/students/application/'>students</a> or <a href='https://railsgirlssummerofcode.org/guide/coaching/'>coaches</a>, I will try to argue why (in my opinion) it is important to the healthy growth of the clojure data science ecosystem: not only by actively addressing our goal to create a welcoming community, but also by creating a continuous process of experimentation and reflection about the usability of the emerging stack.<h2></h2></p><p>For several years, <a href='https://railsgirlssummerofcode.org/'>Rails Girls Summer of Code</a> has been organizing Summer of Code projects, where students of underrepresented groups (specifically women and non-binary people) work on open source projects for a monthly stipend during the summer. The explicit main goal is to bring more diversity into Open Source.</p><p>Two Clojure projects were accepted to RGSoC for 2020:</p><ul><li><a href='https://teams.railsgirlssummerofcode.org/projects/318-kaocha'>Kaocha</a>, submitted by <a href='https://github.com/plexus'>Arne Brasseur</a></li><li><a href='https://teams.railsgirlssummerofcode.org/projects/369-data-science-in-clojure'>data science in clojure</a>, that I have submitted in dialogue with the scicloj organizing team</li></ul><p>Here, we will talk about the latter.<h2></h2></p><p>At scicloj, diversity is an explicit goal as well. Some of the other goals we have been discussing recently are making it easy to get involved and contribute, experimenting with the tools we are building and seeking a cohesive grammer for data science in Clojure. The RGSoC project will be addressing all of these goals.</p><p>As <a href='https://clojureverse.org/t/online-meeting-clojure-data-science/3503/17'>argued</a> by Chris Nuernberger in one of the discussions that anticipated the creation of scicloj, a case-driven approach is an excellent way to continuously verify that we are creating a useful stack. Indeed, this principle has been affecting the growth of the clojure data science ecosystem in the last year. Writing <a href='https://scicloj.github.io/pages/reading/#tutorials'>tutorials</a> has been our main way to learn about the state of the stack, and realize what may be still missing. At the same time, it has been a way to share what was already becoming possible.</p><p>Following this principle, the first component of the "data science in clojure" RGSoC project will <strong>looking into data problems</strong>. The team will choose various old & new data science problems, and solve them in Clojure. </p><p>This will teach us about different aspects of usability of the emerging stack, not only in terms of functionality, but also in terms of clarity, simplicity and ease. In this way, the team will take an extremely important role in the ongoing discussion of scicloj regarding our goals and priorities.</p><p>To make this role explicit, the second component of the project will be <strong>discussing and prioritizing the arising issues and ideas</strong> together with the library maintainers. Selected issues will be solved by the maintainers, involving the team as much as possible in the technical process.</p><p>The project statement focuses on <a href='https://github.com/scicloj/clojisr'>ClojisR</a> - a <a href='https://en.wiktionary.org/wiki/جسر'>jisr</a> between Clojure and R, which is one of the pieces of the emerging stack. Being one of the library authors allowed me to submit it for the RGSoc project. However, the project does leave some room for expansion, and we will be happy to include other relevant libraries, as long as it is desired by the teams and by the maintainers of those libraries.</p><p>As commented recently by Teodor Heggelund, writing example walkthroughs can be done in different ways: some can be just about experimentation, and others can be about education &ndash; that is, carefully teaching a certain practice or idea. In this RGSoC project, we seek both.</p><p>Therefore, the third component of the project would be choosing selected examples, organizing them and <strong>making a coherent story</strong> out of them, in the form of an open source book.</p><p>Often, discussing and solving specific problems can be a source for inspiration for broader reasoning about our journey. This kind of reflection is an important part of our work.</p><p>Thus, in the forth component of the RGSoc project, the team members will be <strong>engaging in general community discussions</strong>, sharing their thoughts and experiences.<h2></h2></p><p>There are many ways to help out, and the two main ones are joining join the project as <a href='https://railsgirlssummerofcode.org/students/application/'>students</a> or <a href='https://railsgirlssummerofcode.org/guide/coaching/'>coaches</a>. These are not small commitments. They require some careful thought and dedication. But I strongly believe that they may have huge impact on our journey, in unique and beautiful ways.</p><p>Scicloj has been going through a long, spiral path of growing the ecosystem, that will eventually converge to a simple, stable, flexible and friendly environment for data science. On our way towards that goal, fresh opinions and diverse points of view are extremely important. I strongly believe that the RGSoC will allow scicloj this kind of refreshment. That is one of the reasons I am so hopeful about this project.</p>
+</div>
+
+<div id="post-tags">
+    <br/> 
+    <b>Tags: </b>
+    
+    <a href="/tags/diversity/">diversity</a>
+    
+    <a href="/tags/data science/">data science</a>
+    
+</div>
+
+<br/>
+
+    <div id="prev-next">
+        
+        
+        <a class="right button" href="/posts/2019-10-18-data-wishes/">Clojure and data: wishes, problems, and ideas &raquo;</a>
+        
+    </div>
+
+    
+
+
+</div>
+
+<hr/>
+<div id="footercont" class="clearfix">Copyright &copy; 2020 SciCloj
+    <p>Powered by <a href="http://cryogenweb.org">Cryogen</a> | Free Website Template by <a title="free website templates" href="http://www.downloadwebsitetemplates.co.uk" rel="external">Download Website Templates</a></p>
+
+</div>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="/js/highlight.pack.js" type="text/javascript"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/js/scripts.js" type="text/javascript"></script>
+
+
+</body>
+</html>
