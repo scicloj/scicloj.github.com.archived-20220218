@@ -12,11 +12,31 @@ https://scicloj.github.com
 The Clojure scientific hub
 </description>
 <lastBuildDate>
-Tue, 17 Mar 2020 22:21:18 +0200
+Wed, 18 Mar 2020 23:05:46 +0100
 </lastBuildDate>
 <generator>
 clj-rss
 </generator>
+<item>
+<guid>
+https://scicloj.github.com/posts/2020-03-18-covid-19-hackathons-announcement/
+</guid>
+<link>
+https://scicloj.github.com/posts/2020-03-18-covid-19-hackathons-announcement/
+</link>
+<title>
+COVID-19 online hackathons I &amp; II
+</title>
+<description>
+&lt;p&gt;Following &lt;a href='../2020-03-17-covid-19-hackathon-planning/'&gt;yesterday's post&lt;/a&gt; suggesting a COVID-19 online hackathon, we got some of reactions at &lt;a href='https://groups.google.com/forum/#!topic/clojure/EvRVhMiPtPg'&gt;the mail group&lt;/a&gt;, &lt;a href='https://www.reddit.com/r/Clojure/comments/fkcf5w/online_clojure_covid19_hackathon/'&gt;the subreddit&lt;/a&gt;, the &lt;a href='https://doodle.com/poll/8imu9dyqmftygihs'&gt;date poll&lt;/a&gt;, and mainly the relevant Zulip &lt;a href='../../pages/chat_streams/#relevant_active_streams'&gt;chat streams&lt;/a&gt;.&lt;/p&gt;&lt;h2 id=&quot;two&amp;#95;hackathons&quot;&gt;Two hackathons&lt;/h2&gt;&lt;p&gt;Seeing that broad interest, we decided to set &lt;strong&gt;two&lt;/strong&gt; dates for online hackathons:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Saturday, March 21st (yes, very close)&lt;/li&gt;&lt;li&gt;Sunday, Match 29th&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The hackathons are not intended to contain all our activity in this area. Before and after them, we will discuss the topic at the &lt;a href='https://clojurians.zulipchat.com/#narrow/stream/227504-covid-19'&gt;#covid-19 stream&lt;/a&gt; of the Clojurians Zulip. &lt;/p&gt;&lt;h2 id=&quot;joining&quot;&gt;Joining&lt;/h2&gt;&lt;p&gt;To attend the Hackathons, we ask you to present yourself under the &lt;a href='https://clojurians.zulipchat.com/#narrow/stream/227504-covid-19/topic/hello'&gt;#covid-19 / hello&lt;/a&gt; topic, tell which hackathon(s) you wish to attend, and follow the announcements under the &lt;a href='https://clojurians.zulipchat.com/#narrow/stream/227504-covid-19/topic/announcements'&gt;#covid-19 / announcements&lt;/a&gt; topic.&lt;/p&gt;&lt;p&gt;If you wish to be involved in organizing, moderating or influencing the agenda, it would be great to mention that when presenting yourself.&lt;/p&gt;&lt;p&gt;If you have any doubts regarding participaction, have a look at the Q&amp;A on &lt;a href='../2020-03-17-covid-19-hackathon-planning/'&gt;yesterday's post&lt;/a&gt;, or please ask under the &lt;a href='https://clojurians.zulipchat.com/#narrow/stream/227504-covid-19/topic/hackathon.20q.26a'&gt;#covid-19 / hackathon q&amp;a&lt;/a&gt; topic.  &lt;/p&gt;&lt;h2 id=&quot;rough&amp;#95;plan&quot;&gt;Rough plan&lt;/h2&gt;&lt;p&gt;The Hackathons will begin in the European morning, and end in the American afternoon. &lt;/p&gt;&lt;p&gt;At some points through the day, we will have video meetings of 30-60 minutes, but most of the activity will take place in text chat. &lt;/p&gt;&lt;p&gt;We will divide into teams, and each team will discuss things among itself, and sometimes with everybody, through the chat.&lt;/p&gt;&lt;p&gt;For more details, please follow the &lt;a href='https://clojurians.zulipchat.com/#narrow/stream/227504-covid-19/topic/announcements'&gt;#covid-19 / announcements&lt;/a&gt; topic.&lt;/p&gt;&lt;p&gt;See you there, and be safe &amp;ndash; the scicloj organizing team&lt;/p&gt;
+</description>
+<author>
+Teodor Heggelund and Daniel Slutsky
+</author>
+<pubDate>
+Wed, 18 Mar 2020 00:00:00 +0100
+</pubDate>
+</item>
 <item>
 <guid>
 https://scicloj.github.com/posts/2020-03-17-covid-19-hackathon-planning/
@@ -34,7 +54,7 @@ Planning a COVID-19 online hackathon
 Teodor Heggelund and Daniel Slutsky
 </author>
 <pubDate>
-Tue, 17 Mar 2020 00:00:00 +0200
+Tue, 17 Mar 2020 00:00:00 +0100
 </pubDate>
 </item>
 <item>
@@ -54,7 +74,7 @@ Meeting Video: Guix-Jupyter with Ludovic Courtès
 Daniel Slutsky
 </author>
 <pubDate>
-Sat, 07 Mar 2020 00:00:00 +0200
+Sat, 07 Mar 2020 00:00:00 +0100
 </pubDate>
 </item>
 <item>
@@ -74,7 +94,7 @@ Data Science in Clojure at Rails Girls Summer of Code
 Daniel Slutsky
 </author>
 <pubDate>
-Thu, 05 Mar 2020 00:00:00 +0200
+Thu, 05 Mar 2020 00:00:00 +0100
 </pubDate>
 </item>
 <item>
@@ -94,7 +114,7 @@ Clojure and data: wishes, problems, and ideas
 Sami Kallinen, Konrad Kühne, Daniel Slutsky
 </author>
 <pubDate>
-Fri, 18 Oct 2019 00:00:00 +0300
+Fri, 18 Oct 2019 00:00:00 +0200
 </pubDate>
 </item>
 <item>
@@ -114,7 +134,7 @@ Are we scientists yet?
 Alan Marazzi
 </author>
 <pubDate>
-Thu, 23 May 2019 00:00:00 +0300
+Thu, 23 May 2019 00:00:00 +0200
 </pubDate>
 </item>
 <item>
@@ -136,7 +156,7 @@ Are we scientists yet?
 Alan Marazzi
 </author>
 <pubDate>
-Mon, 21 Jan 2019 00:00:00 +0200
+Mon, 21 Jan 2019 00:00:00 +0100
 </pubDate>
 </item>
 </channel>
