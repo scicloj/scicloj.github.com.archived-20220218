@@ -12,7 +12,7 @@ https://scicloj.github.com
 The Clojure scientific hub
 </description>
 <lastBuildDate>
-Sat, 25 Apr 2020 14:25:34 +0300
+Wed, 29 Apr 2020 22:39:14 +0200
 </lastBuildDate>
 <generator>
 clj-rss
@@ -34,7 +34,7 @@ COVID-19 online hackathons I &amp; II
 Teodor Heggelund and Daniel Slutsky
 </author>
 <pubDate>
-Wed, 18 Mar 2020 00:00:00 +0200
+Wed, 18 Mar 2020 00:00:00 +0100
 </pubDate>
 </item>
 <item>
@@ -54,7 +54,7 @@ Planning a COVID-19 online hackathon
 Teodor Heggelund and Daniel Slutsky
 </author>
 <pubDate>
-Tue, 17 Mar 2020 00:00:00 +0200
+Tue, 17 Mar 2020 00:00:00 +0100
 </pubDate>
 </item>
 <item>
@@ -74,7 +74,7 @@ Meeting Video: Guix-Jupyter with Ludovic Courtès
 Daniel Slutsky
 </author>
 <pubDate>
-Sat, 07 Mar 2020 00:00:00 +0200
+Sat, 07 Mar 2020 00:00:00 +0100
 </pubDate>
 </item>
 <item>
@@ -94,7 +94,7 @@ Data Science in Clojure at Rails Girls Summer of Code
 Daniel Slutsky
 </author>
 <pubDate>
-Thu, 05 Mar 2020 00:00:00 +0200
+Thu, 05 Mar 2020 00:00:00 +0100
 </pubDate>
 </item>
 <item>
@@ -114,7 +114,7 @@ Clojure and data: wishes, problems, and ideas
 Sami Kallinen, Konrad Kühne, Daniel Slutsky
 </author>
 <pubDate>
-Fri, 18 Oct 2019 00:00:00 +0300
+Fri, 18 Oct 2019 00:00:00 +0200
 </pubDate>
 </item>
 <item>
@@ -134,7 +134,7 @@ Are we scientists yet?
 Alan Marazzi
 </author>
 <pubDate>
-Thu, 23 May 2019 00:00:00 +0300
+Thu, 23 May 2019 00:00:00 +0200
 </pubDate>
 </item>
 <item>
@@ -156,7 +156,7 @@ Are we scientists yet?
 Alan Marazzi
 </author>
 <pubDate>
-Mon, 21 Jan 2019 00:00:00 +0200
+Mon, 21 Jan 2019 00:00:00 +0100
 </pubDate>
 </item>
 </channel>
