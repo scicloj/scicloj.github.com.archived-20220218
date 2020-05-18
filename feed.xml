@@ -12,11 +12,31 @@ https://scicloj.github.com
 The Clojure scientific hub
 </description>
 <lastBuildDate>
-Fri, 01 May 2020 00:44:31 +0200
+Fri, 01 May 2020 17:03:18 +0200
 </lastBuildDate>
 <generator>
 clj-rss
 </generator>
+<item>
+<guid>
+https://scicloj.github.com/posts/2020-05-01-march-april-2020-update/
+</guid>
+<link>
+https://scicloj.github.com/posts/2020-05-01-march-april-2020-update/
+</link>
+<title>
+March-April 2020 update
+</title>
+<description>
+&lt;p&gt;&lt;a href='../../workplan/ver20200501/workplan'&gt;workplan&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href='../../workplan/ver20200501/projects'&gt;projects&lt;/a&gt;&lt;/p&gt;
+</description>
+<author>
+Teodor Heggelund and Daniel Slutsky
+</author>
+<pubDate>
+Fri, 01 May 2020 00:00:00 +0200
+</pubDate>
+</item>
 <item>
 <guid>
 https://scicloj.github.com/posts/2020-03-18-covid-19-hackathons-announcement/
