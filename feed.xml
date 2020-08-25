@@ -12,11 +12,31 @@ https://scicloj.github.com
 The Clojure scientific hub
 </description>
 <lastBuildDate>
-Wed, 26 Aug 2020 00:37:09 +0300
+Wed, 26 Aug 2020 01:41:45 +0300
 </lastBuildDate>
 <generator>
 clj-rss
 </generator>
+<item>
+<guid>
+https://scicloj.github.com/posts/2020-08-26-public-meeting-2020-08-30/
+</guid>
+<link>
+https://scicloj.github.com/posts/2020-08-26-public-meeting-2020-08-30/
+</link>
+<title>
+Preparing to our public meeting on August 30th
+</title>
+<description>
+&lt;p&gt;A lot is happening in the Clojure data science ecosystem. While the infrastructure and tooling are gradually maturing, new libraries and experiments are rising. It seems that we are on a phase transition, and some beautiful things are about to happen.&lt;/p&gt;&lt;p&gt;It is a good time to meet and catch up, hear about active projects and discuss future directions and ways to collaborate.&lt;/p&gt;&lt;p&gt;That is what we will be doing in the &lt;a href='https://twitter.com/scicloj/status/1291845872884625408'&gt;public meeting&lt;/a&gt; on the coming Sunday, August 30th 2020.&lt;/p&gt;&lt;h2 id=&quot;time&quot;&gt;Time&lt;/h2&gt;&lt;p&gt;We will meet at 5pm UTC, for 90m minutes. Please check your time difference from &lt;a href='https://time.is/UTC'&gt;the UTC timezone&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;The next public meeting is planned to take on a different hour, more comfortable to the friends in East Asia.&lt;/p&gt;&lt;h2 id=&quot;joining&amp;#95;the&amp;#95;meeting&quot;&gt;Joining the meeting&lt;/h2&gt;&lt;p&gt;Please register in &lt;a href='tinyurl.com/y4a2w79g'&gt;the registration form&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;You will get an email with a calendar invitation and a Zoom link.&lt;/p&gt;&lt;h2 id=&quot;plan&quot;&gt;Plan&lt;/h2&gt;&lt;p&gt;We will have a sequence of 5min lightning talks, then some discussion.&lt;/p&gt;&lt;p&gt;Below is the tentative plan. Several more friends have mentioned they might speak too, but haven't confirmed yet. If you wish to add your name to the list, please kindly email &lt;a href='mailto:scicloj@gmail.com'&gt;scicloj@gmail.com&lt;/a&gt;.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://www.linkedin.com/in/anthony-khong/'&gt;Anthony Khong&lt;/a&gt; will speak about &lt;a href='https://github.com/zero-one-group/geni'&gt;Geni&lt;/a&gt; &amp;ndash; a new Clojure library that wraps &lt;a href='https://spark.apache.org/'&gt;Apache Spark&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;a href='https://twitter.com/daslu_'&gt;Daniel Slutsky&lt;/a&gt; will share a workflow with some of the new libraries and tools, including &lt;a href='https://github.com/scicloj/tablecloth'&gt;Tablecloth&lt;/a&gt;, &lt;a href='https://github.com/pink-gorilla/gorilla-ui'&gt;Gorilla-UI&lt;/a&gt; and an experimental branch of &lt;a href='https://github.com/scicloj/Notespace'&gt;Notespace&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;a href='https://github.com/jsa-aerial'&gt;Jon Anthony&lt;/a&gt; will present a demonstration of building interactive dashboards with &lt;a href='https://github.com/jsa-aerial/saite'&gt;Saite&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;a href='https://twitter.com/mtraven'&gt;Michael Travers&lt;/a&gt; will give &lt;a href='https://drive.google.com/file/d/1WSsW6Y9cexKm7n6Ts6QwDC8lgV1-pzdf/view'&gt;a presentation&lt;/a&gt; about a visual query builder for knowledge graphs.&lt;/li&gt;&lt;li&gt;&lt;a href='https://twitter.com/metasoarous'&gt;Christopher Small&lt;/a&gt; will present the work he has been doing on &lt;a href='https://twitter.com/UsePolis'&gt;Polis&lt;/a&gt; analyses with &lt;a href='https://github.com/clj-python/libpython-clj'&gt;Libpython-clj&lt;/a&gt;, the &lt;a href='https://github.com/techascent/tech.ml'&gt;tech.ml&lt;/a&gt; stack, &lt;a href='https://github.com/metasoarous/oz'&gt;Oz&lt;/a&gt; &amp; &lt;a href='https://github.com/clojupyter/clojupyter'&gt;Clojupyter&lt;/a&gt; in a Docker environment.&lt;/li&gt;&lt;li&gt;&lt;a href='https://twitter.com/ontomd'&gt;Sivaram Arabandi&lt;/a&gt; will give a presentation on imprecise data.&lt;/li&gt;&lt;li&gt;&lt;a href='https://twitter.com/replomancer'&gt;Łukasz Kożuchowski&lt;/a&gt; will talk about &lt;a href='https://en.wikipedia.org/wiki/Differential_privacy'&gt;Differential Privacy&lt;/a&gt; in Clojure (a work in progress open source library).&lt;/li&gt;&lt;/ul&gt;
+</description>
+<author>
+Daniel Slutsky
+</author>
+<pubDate>
+Wed, 26 Aug 2020 00:00:00 +0300
+</pubDate>
+</item>
 <item>
 <guid>
 https://scicloj.github.com/posts/2020-03-18-covid-19-hackathons-announcement/
